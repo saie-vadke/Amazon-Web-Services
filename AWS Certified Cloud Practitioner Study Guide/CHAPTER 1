@@ -1,0 +1,46 @@
+*-------------------- THE CLOUD --------------------*
+
+    Cloud computing gives you ability to do computing in efficient way.
+    for e.g. as an administration you can manage IT infra tools and deploy service on the fly by click of mouse button.
+    Computing include hardware and software process data.
+    
+    > Types:
+            1. personal / Essential 
+            2. time-sharing
+            3. grid
+            4. distributed
+            5. cluster
+            
+            
+    > Cloud Platform Models:
+         
+            1. Infrastructure as a Service: 
+                                           Iaas service offer compute, storage and networking resource on demand on a PAY-AS-YOU-GO basis.
+                                           eg. AWS, GCE, AZURE.
+                                           
+            2. Platform as a Service: 
+                                     In paas third-party provider deliver hardware/software tools to users over internet
+                                     eg. EBS, Apache, windows Azure
+                                     
+                                     
+            3. Software as a Service:
+                                     saas is common delivery model for many bussiness.
+                                     eg, web browers, google apps, salesforce
+                                     
+             4. Database as a Service:
+                                     daas is access to a database without requring the setup of hardware/software.
+                                     eg. RDS, oracle, NySql, Dynamodb
+                                     
+                                     
+        
+        
+   > Scalability and Elasticity:
+               
+             scalability: ability to increase and decrease IT resources as needed to meet changing demand
+             
+             elasticity: acquire resources as you need them and release resources when you no longer need the, 
+   
+                                     
+                                     
+                                 
+            
