@@ -1,0 +1,90 @@
+*-------------------- AWS --------------------*
+
+    what is amazon?
+            - amazon is an american multinatinational conglomerate technology company based in seattle, with 750,000 employees.
+              it focuses on e-commerce, cloud computing, digital streaming and artifcial intekkigence.
+              it is consider one of the big four tech companies.
+            - Amazon was founded by "Jeff Bezos" in bellevue, washington, in july 1994.
+              the company initially started as an online marketplace for books but later expanded to sell electronics, software, video games, apparel, furniture, food, toys and jewekery
+              
+              
+    Features of AWS:
+             - coud based infrastructure that businesses use for their daily computing needs
+             - pay-as-you-go pricing model that allows you to pay only for as long as you use the resource
+             - it has hybrid capabilities that allows application to run both on-premises and cloud services
+             - flexible, scalable and reliable
+             - provides greater security, through data encryption and exceptional hardware
+             
+             
+    Product Pricing:
+             - As you plan, launch, and then manage your AWS deployments, keeping costs within your
+               organization’s budget is going to demand a lot of your attention. You’ll need to understand
+               how AWS bills for each of the services you’re considering, and you’ll need to know how to
+               quickly get your hands on accurate pricing information.
+               
+               
+    Monitoring Your Costs:
+              - In-depth deployment planning and properly configured budgets are important tools, but
+                they’re not enough. Just like smart security professionals will build layers of firewalls, 
+                permissions, and physical controls around their application infrastructure, account administrators
+                will also watch events from multiple perspectives. Ongoing monitoring is a key part of that
+                mix, and that means getting to know Amazon’s Cost Explorer and its cost and usage reports.
+
+
+               1. Cost Explorer:
+                         - Cost Explorer (https://aws.amazon.com/aws-cost-management/aws-cost-explorer)
+                           lets you build graphs to visualize your account’s historical and current costs. If you’re in
+                           a hurry, you can select one of the preconfigured views provided by the service (including
+                           spending over the most recent three months by service).
+                           Alternatively, you can launch the Cost Explorer tool to open a heavily customizable view
+                           that lets you filter account cost events by date, region, Availability Zone, instance type, 
+                           platform (Linux, Windows, and so on), and others. CSV-formatted files based on customized
+                           views can also be downloaded.
+                           You can save report views to ensure they’ll be quickly available whenever you want to
+                           drop in for this particular combination of information.
+
+
+               2. Cost and Usage Reports:
+                        - Cost and usage reports are (right now, at least) accessed from the Reports link on the
+                          Billing Dashboard. You can configure reports to be created that include the full range of
+                          activity on your account, including what resources you have running and how much they’re
+                          costing you. You can control for the level of detail and enable support for Redshift and/or
+                          Amazon QuickSight (a managed, pay-per-user business intelligence tool) to handle the visualization 
+                          and analysis of what can become significant volumes of data.
+                          The reports, once generated at preset intervals, are compressed, saved using the CSV format, 
+                          and sent to an S3 bucket you’ve already created. From there, it’s up to you to configure
+                          Redshift or QuickSight to access and process the data as it’s generated.
+
+
+               3. Cost Allocation Tags:
+                        - Tags are metadata identification elements representing a resource and its actions. Tags can
+                          be used to organize and track your resources, allowing you to visualize and better understand how resources are being used.
+                          Just to confuse things, however, AWS offers two distinct kinds of tags that actually have nothing to do with each other.
+
+             
+                 Resource tags:
+                          - Resource tags are often used in busy accounts to help administrators
+                            quickly identify the purpose and owner of a particular running resource. With hundreds of
+                            instances, security groups, buckets, and service definitions scattered through your account,
+                            being able to instantly understand what each one is supposed to do will make it a lot easier
+                            for you to know how you should manage it.
+                            
+                Cost allocation tags:
+                          - Cost tags are only meant to interact with billing tools and won’t
+                            show up in the context of any other AWS resource or process. Like resource tags, cost
+                            allocation tags help you efficiently identify your resources, but only for the purpose of
+                            tracking your account spending.
+                            
+                            
+                            
+    Summary:
+              The Free Tier offers new accounts a full year of free access to light configurations of most
+              AWS services. It’s meant as an opportunity to experiment and learn how your organization’s needs can be met in the cloud. 
+              You can track how close you are to “outspending”
+              your Free Tier allowance from the Billing Dashboard.
+              You can find pricing information online by adding /pricing to the URL of an AWS
+              service. aws.amazon.com/s3/, for instance, would become aws.amazon.com/s3/pricing.
+              It’s important to understand both the billing rates and the specific metrics used to measure
+              them.
+              The AWS Simple Monthly Calculator and AWS Total Cost of Ownership Calculator let
+              you anticipate real-world usage costs for AWS deployments and (in the case of the TCO calculator) compare your spend with its on-premises equivalent.
